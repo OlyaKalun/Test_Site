@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Test project</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <a href="" class="logo">Logo</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn">
+          <span class="navicon"></span>
+        </label>
+        <ul class="menu">
+          <li class="home main-nav nav-item active">
+            <a href="#" class="menu-link home-link d-flex align-items-center">
+              <div class="gray-circle"></div>
+              Home</a
+            >
+            <div class="home-sub-wrapper">
+              <div class="home-sub">
+                <ul>
+                  <h6>Submenu 01</h6>
+                  <li><a href="#">Excepteur sint </a></li>
+                  <li><a href="#">Occaecat cupidatat</a></li>
+                </ul>
+                <ul>
+                  <h6>Submenu 02</h6>
+                  <li><a href="#">Adipisci velit</a></li>
+                  <li><a href="#">Magnam aliquam</a></li>
+                  <li><a href="#">Error sit voluptatem</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="main-nav nav-item">
+            <div class="gray-circle"></div>
+            <a href="#" class="menu-link">About us</a>
+          </li>
+          <li class="main-nav nav-item">
+            <div class="gray-circle"></div>
+            <a href="#" class="menu-link">Our news</a>
+          </li>
+          <li class="main-nav nav-item">
+            <div class="gray-circle"></div>
+            <a href="#" class="menu-link">Blog</a>
+          </li>
+          <li class="main-nav nav-item">
+            <div class="gray-circle"></div>
+            <a href="#" class="menu-link">Contacts</a>
+          </li>
+          <li class="main-nav nav-item grow-1">
+            <div class="gray-circle"></div>
+            <a href="#" class="menu-link">Faq</a>
+          </li>
+          <li>
+            <button type="button" class="buttons btn-login">Sign in</button>
+          </li>
+          <li>
+            <button type="button" class="buttons btn-registration">
+              Registration
+            </button>
+          </li>
+          <li class="nav-item dropdown language-mobile">
+            <img src="./img/en.png" class="mr-10" alt="En language" />
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              English
+              <i class="fas fa-angle-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Arabic</a>
+              <a class="dropdown-item" href="#">Ukranian</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <div>
+          <div class="nav-item dropdown language-desktop">
+            <img src="./img/en.png" class="mr-10" alt="En language" />
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              English
+              <i class="fas fa-angle-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Arabic</a>
+              <a class="dropdown-item" href="#">Ukranian</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="points">
+      <div class="controls">
+        <p class="title">Voluptatem points doluptas sit Aspernatur aut 2000</p>
+        <div class="range-block-wrapper">
+          <div class="range-block">
+            <label for="value_01" class="tiny-label required-after"
+              >Value 01</label
+            >
+            <div id="value_01_display" class="value-display">0</div>
+            <input
+              type="range"
+              id="value_01"
+              step="10"
+              min="0"
+              max="1000"
+              value="0"
+            />
+          </div>
+          <div class="range-block">
+            <label for="value_02" class="tiny-label required-after"
+              >Value 02</label
+            >
+            <div id="value_02_display" class="value-display">0</div>
+            <input
+              type="range"
+              id="value_02"
+              step="10"
+              min="0"
+              max="3000"
+              value="0"
+            />
+          </div>
+        </div>
+        <div class="d-flex">
+          <span class="required-before"></span>
+          <p class="required-tip">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+      <div class="results">
+        <div class="tiny-label">Value 03</div>
+        <div class="value-display">
+          <span id="value_03_display">0</span>Points
+        </div>
+        <button class="action-btn">See more values</button>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/api.js"></script>
+  </body>
+</html>
